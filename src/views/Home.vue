@@ -2,13 +2,22 @@
     <div class="home">
       <h1>This is Home page!</h1>
     </div>
+    <div class="links">
+      <router-link :to="home" class="link">Home</router-link>
+      <router-link :to="user" class="link">User</router-link>
+      <router-link :to="about" class="link">About</router-link>
+    </div>
   </template>
   
   <script>
   export default {
     name: 'MyHome',
-    props: {
-      msg: String
+    data() {
+      return {
+        home: '/',
+        user: '/user',
+        about: '/about'
+      };
     }
   }
   </script>
@@ -28,6 +37,9 @@
   }
   a {
     color: #42b983;
+  }
+  .link {
+    margin-right: 20px;
   }
   </style>
   
