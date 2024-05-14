@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkga_test"]=self["webpackChunkga_test"]||[]).push([[464],{2464:function(e,t,a){a.r(t),a.d(t,{default:function(){return p}});var n=a(1882);const s=e=>((0,n.Qi)("data-v-04d610ac"),e=e(),(0,n.jt)(),e),r={class:"hello"},c=s((()=>(0,n.Lk)("h1",null,"User page!",-1))),u=[c];function d(e,t,a,s,c,d){return(0,n.uX)(),(0,n.CE)("div",r,u)}var l={name:"MyUser",props:{msg:String}},o=a(1220);const i=(0,o.A)(l,[["render",d],["__scopeId","data-v-04d610ac"]]);var p=i}}]);
+//# sourceMappingURL=464.ed182e9f.js.map
