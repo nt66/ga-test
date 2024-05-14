@@ -5,12 +5,18 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@gtm-support/vue2-gtm':
+    specifier: ^2.0.0
+    version: 2.0.0(vue@3.4.27)
   core-js:
     specifier: ^3.8.3
     version: 3.37.1
   vue:
     specifier: ^3.2.13
     version: 3.4.27
+  vue-router:
+    specifier: ^4.0.0
+    version: 4.3.2(vue@3.4.27)
 
 devDependencies:
   '@babel/core':
@@ -1337,6 +1343,19 @@ packages:
       - supports-color
     dev: true
 
+  /@gtm-support/core@2.3.1:
+    resolution: {integrity: sha512-eD0hndQjhgKm5f/7IA9fZYujmHiVMY+fnYv4mdZSmz5XJQlS4TiTmpdZx2l7I2A9rI9J6Ysz8LpXYYNo/Xq4LQ==}
+    dev: false
+
+  /@gtm-support/vue2-gtm@2.0.0(vue@3.4.27):
+    resolution: {integrity: sha512-GctELllbEhXzYEyKLFi9HgS4nyvOfhQVTDzo+uvqQXnf8hG8Cj4KppEIdFWEygbzLLTDescdZZEyeVCxJizdBg==}
+    peerDependencies:
+      vue: ^2.7.0
+    dependencies:
+      '@gtm-support/core': 2.3.1
+      vue: 3.4.27
+    dev: false
+
   /@hapi/hoek@9.3.0:
     resolution: {integrity: sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==}
     dev: true
@@ -2148,6 +2167,10 @@ packages:
       - walrus
       - whiskers
     dev: true
+
+  /@vue/devtools-api@6.6.1:
+    resolution: {integrity: sha512-LgPscpE3Vs0x96PzSSB4IGVSZXZBZHpfxs+ZA1d+VEPwHdOXowy/Y2CsvCAIFrf+ssVU1pD1jidj505EpUnfbA==}
+    dev: false
 
   /@vue/reactivity@3.4.27:
     resolution: {integrity: sha512-kK0g4NknW6JX2yySLpsm2jlunZJl2/RJGZ0H9ddHdfBVHcNzxmQ0sS0b09ipmBoQpY8JM2KmUw+a6sO8Zo+zIA==}
@@ -6744,6 +6767,15 @@ packages:
       watchpack: 2.4.1
       webpack: 5.91.0
     dev: true
+
+  /vue-router@4.3.2(vue@3.4.27):
+    resolution: {integrity: sha512-hKQJ1vDAZ5LVkKEnHhmm1f9pMiWIBNGF5AwU67PdH7TyXCj/a4hTccuUuYCAMgJK6rO/NVYtQIEN3yL8CECa7Q==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.6.1
+      vue: 3.4.27
+    dev: false
 
   /vue-style-loader@4.1.3:
     resolution: {integrity: sha512-sFuh0xfbtpRlKfm39ss/ikqs9AbKCoXZBpHeVZ8Tx650o0k0q/YCM7FRvigtxpACezfq6af+a7JeqVTWvncqDg==}
