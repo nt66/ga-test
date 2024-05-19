@@ -9,7 +9,12 @@
     name: 'MyUser',
     props: {
       msg: String
-    }
+    },
+    methods: {
+    getUserInfo() {
+      return 'hualingfeng';
+    },
+  },
   }
   </script>
   
