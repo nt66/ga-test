@@ -7,4 +7,4 @@ const app = createApp(App)
 app.use(router)
 app.mount('#app')
 
-console.log('branch_a rebase test1:',app)
+console.log('rebase test2:',app)
