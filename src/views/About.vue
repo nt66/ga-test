@@ -1,12 +1,12 @@
 <template>
     <div class="about">
-      <h1>This is about page!</h1>
+      <h1>This is about page11223!</h1>
     </div>
   </template>
   
   <script>
   export default {
-    name: 'My About',
+    name: 'My About 112233',
     props: {
       msg: String
     }
