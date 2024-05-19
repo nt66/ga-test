@@ -13,6 +13,7 @@ export default {
         app3: 'app3',
         app4: 'app4',
         app5: 'app5',
+        app6: 'app6',
       };
     },
   methods: {
