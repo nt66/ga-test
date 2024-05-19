@@ -10,11 +10,16 @@ export default {
       return {
         app1: 'app1',
         app2: 'app2',
+        app3: 'app3',
+        app4: 'app4',
       };
     },
   methods: {
     getNumber() {
       return 42;
+    },
+    getAge() {
+      return '30岁';
     },
     anotherMethod() {
       console.log(this.getNumber());
