@@ -11,7 +11,15 @@ export default {
         app1: 'app1',
         app2: 'app2',
       };
+    },
+  methods: {
+    getNumber() {
+      return 42;
+    },
+    anotherMethod() {
+      console.log(this.getNumber());
     }
+  },
 }
 </script>
 
