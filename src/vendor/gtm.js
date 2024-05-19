@@ -4,7 +4,7 @@ import router from '@/router';
 
 const GTM_ENVIRONMENTS = ['develop', 'production'];
 
-// if (GTM_ENVIRONMENTS.includes(process.env.VUE_APP_ARS_ENV || '')) {
+if (GTM_ENVIRONMENTS.includes(process.env.VUE_APP_ARS_ENV || '')) {
   Vue.use(
     VueGtm,
     {
@@ -13,4 +13,4 @@ const GTM_ENVIRONMENTS = ['develop', 'production'];
     },
     router
   );
-// }
+}
